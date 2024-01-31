@@ -10,7 +10,6 @@
 ## 설치
 
 1. **플러그인 다운로드**
-
    Git을 사용하여 플러그인 소스 코드를 다운로드합니다.
 
    git clone <플러그인 Git 저장소 URL>
@@ -19,12 +18,15 @@
 
 2. **플러그인 설치**
 
-    /path/to/kibana/bin/kibana-plugin install file:///path/to/plugin.zip
+    $ bin/kibana-plugin install file:///local/path/to/<플러그인 파일명>
 
 
 3. **플러그인 삭제**
 
-    /path/to/kibana/bin/kibana-plugin remove <플러그인 이름>
+    $ bin/kibana-plugin remove userDictionary
+
+
+참고 : https://www.elastic.co/guide/en/kibana/current/kibana-plugins.html
 
 
 ## 사용
